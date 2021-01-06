@@ -4,5 +4,6 @@ var newword = require('./App'),
 chalk = require('chalk');
 (async () => {
 var data = await newword();
-console.log('Word Of The Day')
+console.log(chalk.red('Word Of The Day : ')+chalk.green(data.title))
+console.log(chalk.red('Description : ')+chalk.green(data.description))
 })();
