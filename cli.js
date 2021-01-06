@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-var newword = require('./App');
+var newword = require('./App'),
+chalk = require('chalk');
 (async () => {
-console.log(await newword())
+var data = await newword();
+console.log('Word Of The Day')
 })();
