@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for getting the word of the day",
   "main": "App.js",
+  "bin": {
+    "new-word": "cli.js"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "rss-to-json": "^1.1.2"
